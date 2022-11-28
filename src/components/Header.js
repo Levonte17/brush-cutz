@@ -9,6 +9,9 @@ function Header({ user }) {
             <Link to="/people">
                 <div className='nav-logo'>GET IN LINE</div>
             </Link>
+            <Link to="/login">
+                <div className='nav-logo'>LOGIN</div>
+            </Link>
 
             
         </nav>

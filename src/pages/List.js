@@ -10,7 +10,6 @@ function Index(props) {
         createdAt: '',
     });
     
-    
     const loaded = () => {
         return props.people.map(person => (
             <div className="person" key={person._id}>
