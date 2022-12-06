@@ -9,7 +9,9 @@ import Home from '../pages/Home';
 function Main(props) {
 
     const [people, setPeople] = useState(null);
-    const API_URL = 'http://localhost:4003/api/people/';
+    //const API_URL = 'http://localhost:4003/api/people/';
+    const API_URL = 'https://dih-api.adaptable.app/api/people';
+
 const getData = async () => {
     try {
         const response = await fetch(API_URL);
