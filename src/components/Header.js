@@ -13,13 +13,15 @@ function Header({ user }) {
             user ? 
             <>
             <div className='nav-logo'>
-                Welcome,  
-                {user.displayName}
+                Welcome, {user.displayName}
             </div>
             <div 
                 onClick={logout}>
                 LOGOUT
             </div>
+            <Link to="/people">
+                <div className='nav-logo'>GET IN LINE</div>
+            </Link>
             </>
         :
         <div 
@@ -28,9 +30,6 @@ function Header({ user }) {
         </div>
         }
     </section>
-            <Link to="/people">
-                <div className='nav-logo'>GET IN LINE</div>
-            </Link>
             </nav>
             </div>
     );

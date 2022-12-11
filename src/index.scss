@@ -23,13 +23,19 @@ $contrast-color: black;
     margin: 0;
   }
   body{
-    box-sizing: border-box
+    box-sizing: border-box;
+    background-color: black;
   }
 .avatar-image {
   height: 12.5rem;
   width: 12.5rem;
   border-radius: 50%;
 }
+///////////////FOOTER ////////////////////////
+.dashp, p{
+  font-size: large;
+}
+///////////////FOOTER ////////////////////////
 .footer img{
   width: 20%;
   height: 20%;
@@ -40,7 +46,18 @@ $contrast-color: black;
  text-align: center;
  font-size: 2rem;
  padding-top: 25%;
+ color: white;
 
+}
+////////////////////// HOME ///////////////////////
+ a:hover {
+ padding: 1% 1% 1%;
+ text-shadow: 2px 2px 2px black;
+  font-size: 2rem;
+ }
+.here:hover {
+  padding: 1% 1% 1%;
+  text-shadow: 12px 12px 12px black;
 }
 .home{
   background-image: url('../src/assets/picvid.gif');
@@ -57,7 +74,7 @@ $contrast-color: black;
   text-shadow: 2px 2px 2px black;
 
 }
-.home a{
+.home p{
   font-size: 4rem;
   color: red;
   text-shadow: 2px 2px 2px black;
@@ -79,7 +96,39 @@ $contrast-color: black;
     text-decoration: underline;
   }
   }
+///////////// SECTION ////////////////////////////////
+section{
+  color: grey;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
 
+}
+input{
+  width: 50%;
+  color: black;
+  font-size: 2rem;
+  padding: 2% 2% 2%;
+}
+.inp{
+  font-size: 2rem;
+  color: black;
+  background-color: red;
+  padding: 2% 2% 2%;
+}
+///////////// IMG ////////////////////////////////
+.home2{
+  text-align: center;
+  background-color: red;
+}
+.home3 img{
+  width: 50%;
+}
+.home3{
+  width: 100%;
+  display: flex;
+}
+/////////////NAV ////////////////////////////////
  .nav {
   @include white-text-black-bg;
   @include flex-container-centered;

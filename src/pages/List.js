@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 function Index(props) {
 
-    
     const [ newForm, setNewForm ] = useState({
         name: '',
         title: '',
@@ -44,9 +43,11 @@ function Index(props) {
 
     return (
         <section>
+                                <br/><br/>
             { props.people ? loaded() : loading() }
             <form onSubmit={handleSubmit}>
                 <label>Name:
+                <br/>
                     <input 
                         type="text"
                         value={newForm.name} 
@@ -55,8 +56,9 @@ function Index(props) {
                         name="name"
                     />
                 </label>
-                    <br/>
+                <br/><br/>
                 <label>Cut Type:
+                <br/>
                     <input 
                         type="text"
                         value={newForm.title} 
@@ -65,8 +67,8 @@ function Index(props) {
                         name="title"
                         />
                 </label>
-                    <br/>
-                <input type="submit" value="Finish" />
+                    <br/><br/>
+                <input className="inp" type="submit" value="Finish" />
             </form>
         </section>
     )

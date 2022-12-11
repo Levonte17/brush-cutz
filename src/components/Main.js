@@ -1,10 +1,10 @@
 import { useState, useEffect,  } from 'react';
 
 import { Routes, Route } from 'react-router-dom';
-
+///////PAGES///////////////////
 import List from '../pages/List';
 import ShowList from '../pages/ShowList';
-import Home from '../pages/Home';
+import Homepage from '../pages/Homepage';
 
 function Main(props) {
 
@@ -81,7 +81,7 @@ useEffect(() => {
 
 <Routes>
     <Route path="/" element={
-        <Home 
+        <Homepage 
              
         />
     } />
