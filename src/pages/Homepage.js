@@ -5,7 +5,7 @@ import Girl from '../components/Girl';
 import Cuts from '../components/Cuts';
 import Dash from '../components/Dash';
 
-function Homepage(props) {
+function Homepage({user}) {
     return(
       <div>
 <Dash />

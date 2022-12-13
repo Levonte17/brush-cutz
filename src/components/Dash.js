@@ -12,7 +12,7 @@ function Dash(props) {
         </h3>
     </h1>
     <h2>
-        Please Click 
+        Please Login 
 
     <p className="here" 
         onClick={login}>
