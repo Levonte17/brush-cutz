@@ -3,9 +3,16 @@ import cut3 from '../assets/cut3.png'
 
 function Brent(props) {
     return(
-<div className="home3">
-  <img src={cut3} alt='home' className="img2"/>
-  <img src={barber2} alt='home' className="img2"/>
+  <div className='left'>
+  <h1 >
+    Master Barber:
+    <br/>
+    BRENT ELLIS
+  </h1>
+<div className="homeimg">
+  <img src={cut3} alt='home' className="homeimg1"/>
+  <img src={barber2} alt='home' className="homeimg1"/>
+</div>   
 </div>   
     )
 };
