@@ -13,6 +13,7 @@ function Girl(props) {
 <div className="homeimg">
   <img src={barber1} alt='home' className="homeimg1"/>
   <img src={cut4} alt='home' className="homeimg1"/>
+
 </div>
 </div>
     )

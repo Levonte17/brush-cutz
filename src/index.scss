@@ -177,7 +177,7 @@ input{
   display: flex;
 }
 /////////////NAV ////////////////////////////////
- .nav {
+.nav {
   @include white-text-black-bg;
   @include flex-container-centered;
   a {
@@ -189,10 +189,158 @@ input{
       font-size: large;
     }
   }
- }
-@media (min-width: 768px){
+}
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+@media (max-width: 768px){
   .nav {
     justify-content: flex-start;
     font-size: $main-font-size;
   }
+/////////////// HOME IMAGES ////////////////////////
+.homeimg{
+  display:block;
+  justify-content: center;
+  padding: 5% 5% 5%;
+img
+ {
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.homeimg1, .homeimg2{
+  width: 100%;
+}
+}
+.left{
+  color:black;
+  text-shadow: 2px 2px 2px red;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+.left h1{
+  font-size: 2rem;
+}
+.homeimg1{
+  width: 100%;
+
+}
+.homeimg2{
+  width: 100%;
+  padding-left: 0;
+
+}
+/////////////// DASH ////////////////////////
+.dashp, p{
+  font-size: large;
+}
+///////////////FOOTER ////////////////////////
+.footer img{
+  width: 20%;
+  height: 20%;
+  padding-top: 0;
+
+}
+.footer {
+ text-align: center;
+ font-size: 2rem;
+ padding-top: 25%;
+ color: white;
+
+}
+////////////////////// HOME ///////////////////////
+ a:hover {
+ padding: 1% 1% 1%;
+ text-shadow: 2px 2px 2px black;
+  font-size: 2rem;
+ }
+.here:hover {
+  padding: 1% 1% 1%;
+  text-shadow: 12px 12px 12px black;
+}
+.home{
+  background-image: url('../src/assets/picvid.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.home h1{
+  font-size: 2rem;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+
+}
+.home p{
+  font-size: 2rem;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.home h2{
+  font-size: 3rem;
+  padding-bottom: 20%;
+}
+.auth-options {
+  display: block;
+  align-items: center; 
+  div{
+    margin-right: 1.5rem;
+    cursor: pointer;
+  } &:hover {
+    text-decoration: underline;
+  }
+  }
+///////////// SECTION ////////////////////////////////
+section{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+
+}
+input{
+  width: 50%;
+  color: black;
+  font-size: 2rem;
+  padding: 2% 2% 2%;
+}
+.inp{
+  font-size: 2rem;
+  color: black;
+  background-color: red;
+  padding: 2% 2% 2%;
+}
+///////////// IMG ////////////////////////////////
+.home2{
+  text-align: center;
+  background-color: red;
+}
+.home3 img{
+  width: 100%;
+}
+.home3{
+  width: 100%;
+  display: block;
+}
+
 }
